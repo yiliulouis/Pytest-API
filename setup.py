@@ -6,9 +6,8 @@ setup (name='WooCommerceTesting',
     Auther = 'LouisLiu',
     auther_email = 'yiliu915@gmail.com',
     packages = [
-        'WooCommerceTesting',
-        'WooCommerceTesting.src',
-        'WooCommerceTesting.test',
+        'src',
+        'test',
     ],
     zip_safe=False,
     install_requires=[
